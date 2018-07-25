@@ -54,7 +54,8 @@
 		<p><label>Teléfono:</label><input type="text" name = "telefono" ng-model="telefono"  required></p>
 		<p><label>Fecha:</label><input type="date" name = "fecha" ng-model="fecha"  required></p>
 		<p><label>Ciudad y Estado:</label><input type="text" name = "ciudad" ng-model="ciudad"  required></p>
-		<p><input type="submit" value="Enviar" class="boton" ng-disabled="datos.nombre.$dirty && 						datos.nombre.$invalid || datos.email.$dirty && datos.email.$invalid || datos.telefono.$dirty && 				datos.telefono.$invalid || datos.fecha.$dirty && datos.fecha.$invalid || datos.ciudad.$dirty && 				datos.ciudad.$invalid"></p>	
+		<p><input type="submit" value="Enviar" class="boton" ng-disabled="datos.nombre.$dirty && datos.nombre.$invalid || datos.email.$dirty 
+		&& datos.email.$invalid || datos.telefono.$dirty && datos.telefono.$invalid || datos.fecha.$dirty && datos.fecha.$invalid || datos.ciudad.$dirty && datos.ciudad.$invalid"></p>	
 	</form>
 
 </body>
